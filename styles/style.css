@@ -14,6 +14,11 @@
     border: solid black 1px;
 }
 
+.el{
+    display: flex;
+    justify-content: center;
+}
+
 .el:nth-child(5n + 1){
     background-color: rgba(56, 140, 250, 0.782);
 }
