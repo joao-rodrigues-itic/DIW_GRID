@@ -15,6 +15,7 @@
     border: solid black 1px;
     row-gap: 20px;
     column-gap: 10px;
+    padding: 5px;
 }
 
 .el{
@@ -30,6 +31,10 @@
 .el:nth-child(2){
     grid-row-end: span 2;
     grid-column-end: span 2;
+}
+
+.el:nth-child(9){
+    grid-column-end: span 4;
 }
 
 .el:nth-child(5n + 1){
