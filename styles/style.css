@@ -25,28 +25,29 @@
 }
 
 .el:nth-child(1){
-    grid-column-end: span 2;
+    grid-column: 1 / span 2;
 }
 
 .el:nth-child(2){
-    grid-row-end: span 2;
-    grid-column-end: span 2;
+    grid-row: 1 / span 2;
+    grid-column: 3 / span 2;
 }
 
 .el:nth-child(3){
-    grid-row-end: span 3;
+    grid-row: 2 / span 3;
 }
 
 .el:nth-child(7){
-    grid-row-end: span 2;
+    grid-row: 3 / span 2;
+    grid-column: 4;
 }
 
 .el:nth-child(8){
-    grid-column-end: span 2;
+    grid-column: 2 / span 2;
 }
 
 .el:nth-child(9){
-    grid-column-end: span 4;
+    grid-column: 1 / span 4;
 }
 
 .el:nth-child(5n + 1){
