@@ -11,7 +11,7 @@
 
 .container{
     display: grid;
-    grid-template-columns: 250px 1fr 2fr 20%;
+    grid-template-columns: auto auto auto auto;
     grid-template-rows: auto 300px auto;
     border: solid black 1px;
     row-gap: 20px;
@@ -25,7 +25,11 @@
 }
 
 .el:nth-child(1){
-    grid-column-start: 1;
+    grid-column-end: span 2;
+}
+
+.el:nth-child(2){
+    grid-row-end: span 2;
     grid-column-end: span 2;
 }
 
