@@ -33,6 +33,10 @@
     grid-column-end: span 2;
 }
 
+.el:nth-child(3){
+    grid-row-end: span 3;
+}
+
 .el:nth-child(9){
     grid-column-end: span 4;
 }
